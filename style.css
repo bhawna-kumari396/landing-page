@@ -146,6 +146,37 @@ body {
   height: 100%;
 }
 
+.email__container {
+  margin-top: 3rem;
+  width: 100%;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.email__input__field {
+  display: flex;
+  align-items: center;
+}
+
+.email__input {
+  border: 1px solid #ee89a0;
+  background-color: #fcedf0;
+  color: #1d3557;
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 4px;
+}
+.foot{
+
+  justify-content: center;
+
+}
+
+.email__input::placeholder {
+  color: #bdbcbc;
+}
+
 @media (min-width: 768px) {
   .navbar {
     justify-content: space-between;
@@ -205,6 +236,14 @@ body {
   .restaurant__text{
     width: 100%;
     font-size: 40px;
+  }
+  .email__container {
+    display: flex;
+
+    justify-content: center;
+  }
+  .email__input {
+    width: 20rem;
   }
 }
 
